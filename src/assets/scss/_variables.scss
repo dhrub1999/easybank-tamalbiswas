@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
+
+
+$primaryDarkBlue: hsl(233, 26%, 24%);
+$primaryLimeGreen: hsl(136, 65%, 51%);
+$primaryBrightCyan: hsl(192, 70%, 51%);
+
+$neutralGrayishBlue: hsl(233, 8%, 62%);
+$neutralLightGrayishBlue: hsl(220, 16%, 96%);
+$neutralVeryLightGray: hsl(0, 0%, 96%);
+$neutralWhite: hsl(0, 0%, 100%);
+
+$bodyCopy: 18px;
+
+$primaryFontFamily: "Public Sans", sans-serif;
+
+@mixin flex-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
